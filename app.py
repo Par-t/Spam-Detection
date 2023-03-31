@@ -1,7 +1,7 @@
 import pickle
 
 import pandas as pd
-import nltk as nltk
+import nltk
 import streamlit as st
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
@@ -68,7 +68,7 @@ if uploaded_file is not None:
         if i == 1:
             result.append("Spam")
         else:
-            result.append("ham")
+            result.append("Ham")
         j += 1
 
 
